@@ -4,7 +4,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --require esm --require ./setup.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,8 @@
     "chai": "^5.1.1",
     "jsdom": "^24.1.1",
     "mocha": "^10.7.0"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
   }
 }
