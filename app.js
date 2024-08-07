@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+// document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('todo-form');
     const input = document.getElementById('todo-input');
     const list = document.getElementById('todo-list');
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         input.value = '';
     });
 
-    function addTask(task) {
+    export function addTask(task) {
         const li = document.createElement('li');
         li.textContent = task;
 
@@ -23,4 +23,4 @@ document.addEventListener('DOMContentLoaded', () => {
         li.appendChild(deleteButton);
         list.appendChild(li);
     }
-});
+// });

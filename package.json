@@ -2,6 +2,7 @@
   "name": "todo_list_cicd",
   "version": "1.0.0",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "mocha"
   },
@@ -11,6 +12,7 @@
   "description": "",
   "devDependencies": {
     "chai": "^5.1.1",
+    "jsdom": "^24.1.1",
     "mocha": "^10.7.0"
   }
 }
